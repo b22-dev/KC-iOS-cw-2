@@ -12,17 +12,22 @@ struct ContentView: View {
                     .foregroundColor(Color.black)
                 Text("I'm 15 years old")
                     .fontWeight(.regular)
-                    .foregroundColor(Color.black)
+                    .foregroundColor(Color.white)
+                
+                    .padding()
                 Text("I'm learning SwiftUI now")
                     .fontWeight(.light)
+                
+                    .padding()
                 HStack{
                     Text("😄")
                     Spacer()
                     Text("🤓")
                     Spacer()
                     Text("😎")
-                        .padding()
                 }
+                
+                    .padding()
             }
         }
     }
